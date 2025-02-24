@@ -1,0 +1,22 @@
+let str = "sv univercity"
+
+
+console.log(str.length)
+
+str[0]="8"
+console.log(str)
+
+
+let arr = [1,2,3,"praveen",1,2,true,false,null,undefined]
+
+arr[3]
+
+console.log(arr)
+
+console.log(arr[arr.length-1])
+
+arr[4]="ranit"
+
+console.log(arr)
+
+
