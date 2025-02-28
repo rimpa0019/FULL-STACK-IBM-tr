@@ -1,0 +1,5 @@
+#product{
+    display: grid;
+    grid-template-columns: reapet(3,1fr);
+    gap: 20px;
+}

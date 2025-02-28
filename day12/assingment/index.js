@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             movieTableBody.innerHTML += row;
         });
     }
-
+    
     // Attach deleteMovie to window so it's accessible globally
     window.deleteMovie = function(index) {
         const movies = JSON.parse(localStorage.getItem("movies")) || [];
